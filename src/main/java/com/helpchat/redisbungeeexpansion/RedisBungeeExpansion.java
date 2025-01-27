@@ -32,7 +32,7 @@ public final class RedisBungeeExpansion extends PlaceholderExpansion implements 
 
     private final String CHANNEL = "legacy:redisbungee";
 
-    private int fetchInterval = 60;
+    private int fetchInterval = 20;
 
     private boolean registered = false;
 
